@@ -1,0 +1,3 @@
+[submodule "vendor/as.krivedko.kgam"]
+	path = vendor/as.krivedko.kgam
+	url = https://github.com/ast-ashulga/as.krivedko.kgam.git

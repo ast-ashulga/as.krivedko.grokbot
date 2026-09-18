@@ -6,4 +6,4 @@
 
 **Not for:** coding, shipping, auth, or repo chores. One job: translate prose → олбанский.
 
-**License:** MIT (adapter) + MIT upstream `asrokrivedko.kgam` at pinned SHA.
+**License:** MIT (adapter) + MIT upstream `as.krivedko.kgam` at pinned SHA.

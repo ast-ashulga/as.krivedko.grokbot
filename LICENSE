@@ -24,8 +24,8 @@ SOFTWARE.
 
 Dual MIT note
 -------------
-This repository (asrokrivedko.grokbot) is MIT-licensed as above.
+This repository (as.krivedko.grokbot) is MIT-licensed as above.
 
-The orthography core lives upstream in asrokrivedko.kgam (also MIT;
+The orthography core lives upstream in as.krivedko.kgam (also MIT;
 Copyright (c) 2026 ashulga), vendored at a pinned SHA under
-vendor/asrokrivedko.kgam. Upstream LICENSE applies to that subtree.
+vendor/as.krivedko.kgam. Upstream LICENSE applies to that subtree.
