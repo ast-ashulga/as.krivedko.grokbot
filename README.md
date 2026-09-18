@@ -1,18 +1,18 @@
-# asrokrivedko.grokbot
+# as.krivedko.grokbot
 
 Thin **Grok Bot** adapter for «Йа Криведко» (padonki / olbanian / КГ/АМ).
 
-The orthography core stays in upstream [`asrokrivedko.kgam`](https://github.com/ast-ashulga/asrokrivedko.kgam) at a **pinned SHA** (git submodule). This repo versions the adapter, fixtures, and Marketplace listing — not the dictionary bodies.
+The orthography core stays in upstream [`as.krivedko.kgam`](https://github.com/ast-ashulga/as.krivedko.kgam) at a **pinned SHA** (git submodule). This repo versions the adapter, fixtures, and Marketplace listing — not the dictionary bodies.
 
-**License:** MIT (this adapter). Upstream `asrokrivedko.kgam` is also MIT — see `LICENSE` dual-MIT note.
+**License:** MIT (this adapter). Upstream `as.krivedko.kgam` is also MIT — see `LICENSE` dual-MIT note.
 
 ## Upstream pin
 
 | | |
 |---|---|
-| Repo | https://github.com/ast-ashulga/asrokrivedko.kgam |
+| Repo | https://github.com/ast-ashulga/as.krivedko.kgam |
 | SHA | `2722a45780cb27f5af58f8989ed1993b016f412f` |
-| Path | `vendor/asrokrivedko.kgam` (git submodule) |
+| Path | `vendor/as.krivedko.kgam` (git submodule) |
 
 ## Layout
 
@@ -29,18 +29,18 @@ The orthography core stays in upstream [`asrokrivedko.kgam`](https://github.com/
 ├── fixtures/           # short transcripts + expected:
 └── vendor/
     ├── README.md       # pin + submodule init
-    └── asrokrivedko.kgam/   # submodule (pinned)
+    └── as.krivedko.kgam/   # submodule (pinned)
 ```
 
 ## Submodule init
 
 ```bash
-git clone https://github.com/ast-ashulga/asrokrivedko.grokbot.git
-cd asrokrivedko.grokbot
+git clone https://github.com/ast-ashulga/as.krivedko.grokbot.git
+cd as.krivedko.grokbot
 git submodule update --init --recursive
-cd vendor/asrokrivedko.kgam && git checkout 2722a45780cb27f5af58f8989ed1993b016f412f
+cd vendor/as.krivedko.kgam && git checkout 2722a45780cb27f5af58f8989ed1993b016f412f
 cd ../..
-ls vendor/asrokrivedko.kgam/skills/krivedko/references/{orfoart,slovar,sceny}.md
+ls vendor/as.krivedko.kgam/skills/krivedko/references/{orfoart,slovar,sceny}.md
 ```
 
 Details: `vendor/README.md`.

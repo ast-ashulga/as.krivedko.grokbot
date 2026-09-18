@@ -1,4 +1,4 @@
-# vendor/asrokrivedko.kgam
+# vendor/as.krivedko.kgam
 
 Git submodule. Orthography core for the Grok adapter — **pinned SHA**, not floating `main`.
 
@@ -6,7 +6,7 @@ Git submodule. Orthography core for the Grok adapter — **pinned SHA**, not flo
 
 | Field | Value |
 |-------|-------|
-| Upstream | https://github.com/ast-ashulga/asrokrivedko.kgam |
+| Upstream | https://github.com/ast-ashulga/as.krivedko.kgam |
 | SHA | `2722a45780cb27f5af58f8989ed1993b016f412f` |
 | Expected refs | `skills/krivedko/references/{orfoart,slovar,sceny}.md` |
 
@@ -14,7 +14,7 @@ Git submodule. Orthography core for the Grok adapter — **pinned SHA**, not flo
 
 ```bash
 git submodule update --init --recursive
-cd vendor/asrokrivedko.kgam
+cd vendor/as.krivedko.kgam
 git checkout 2722a45780cb27f5af58f8989ed1993b016f412f
 cd ../..
 ```
@@ -22,19 +22,19 @@ cd ../..
 Confirm refs:
 
 ```bash
-ls vendor/asrokrivedko.kgam/skills/krivedko/references/{orfoart,slovar,sceny}.md
+ls vendor/as.krivedko.kgam/skills/krivedko/references/{orfoart,slovar,sceny}.md
 ```
 
 ## First-time add (maintainers)
 
 ```bash
-git submodule add https://github.com/ast-ashulga/asrokrivedko.kgam.git vendor/asrokrivedko.kgam
-cd vendor/asrokrivedko.kgam
+git submodule add https://github.com/ast-ashulga/as.krivedko.kgam.git vendor/as.krivedko.kgam
+cd vendor/as.krivedko.kgam
 git checkout 2722a45780cb27f5af58f8989ed1993b016f412f
 cd ../..
-git add .gitmodules vendor/asrokrivedko.kgam
+git add .gitmodules vendor/as.krivedko.kgam
 ```
 
 ## Manual fallback
 
-If submodule clone fails on a host, clone the upstream into `vendor/asrokrivedko.kgam` and check out the same SHA so the three reference paths resolve. Do **not** vendor-copy `slovar.md` / `orfoart.md` / `sceny.md` into `skill/`.
+If submodule clone fails on a host, clone the upstream into `vendor/as.krivedko.kgam` and check out the same SHA so the three reference paths resolve. Do **not** vendor-copy `slovar.md` / `orfoart.md` / `sceny.md` into `skill/`.

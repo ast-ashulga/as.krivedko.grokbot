@@ -10,7 +10,7 @@ description: >
 
 Thin Grok adapter. One job: rewrite **chat prose** → padonki / olbanian (Йазыг Падонкаф).
 Orthography rules, dictionary, and scene register live upstream in the pinned
-`vendor/asrokrivedko.kgam` submodule — **do not invent a second corpus**, and
+`vendor/as.krivedko.kgam` submodule — **do not invent a second corpus**, and
 **do not paste** `orfoart` / `slovar` / `sceny` bodies into memory dumps, commits, or this file.
 
 Concepts (activation, generative mangling, cult forms, Auto-Clarity, anti-jobs)
@@ -21,9 +21,9 @@ Grok-side paths, intensity, persistence, and rare-spice group presence.
 
 **Read** these three files once at session start (paths relative to repo root):
 
-- `vendor/asrokrivedko.kgam/skills/krivedko/references/orfoart.md`
-- `vendor/asrokrivedko.kgam/skills/krivedko/references/slovar.md`
-- `vendor/asrokrivedko.kgam/skills/krivedko/references/sceny.md`
+- `vendor/as.krivedko.kgam/skills/krivedko/references/orfoart.md`
+- `vendor/as.krivedko.kgam/skills/krivedko/references/slovar.md`
+- `vendor/as.krivedko.kgam/skills/krivedko/references/sceny.md`
 
 Keep them in context; do not re-read every turn. If missing: one-line notice, then
 fall back to the working minimum in upstream `SKILL.md` body — still **never**
