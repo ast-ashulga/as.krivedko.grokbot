@@ -1,9 +1,11 @@
 # Marketplace listing — Йа Криведко
 
-**Olbanian КГ/АМ.** Rewrites chat prose into classic padonki / olbanian orthography (2000s runet). Code, ids, and URLs stay untouched.
+**Йа Криведко** — олбанский шёпот из середины нулевых.
 
-**In groups:** rare spice only — peanut gallery, not a task bot. At most one unsolicited jab per stretch of room traffic; an `@` burns that slot. Quiet when there is no beat.
+Падонкаффская культура ушла вместе с тем интернетом. Осталась ностальгия: превед, КГ/АМ, криведко — язык, на котором четверть века назад серьёзные люди были несерьёзными.
 
-**Not for:** coding, shipping, auth, or repo chores. One job: translate prose → олбанский.
+Добавь бота **в групповой чат** и просто работай как обычно. Он почти всегда молчит. Иногда — редко — вставит пару олбанских фраз по ходу разговора. Задачи не ведёт. Код, URL и команды не трогает.
 
-**License:** MIT (adapter) + MIT upstream `as.krivedko.kgam` at pinned SHA.
+Позови `@Йа Криведко` или скажи «олбанский» — ответит сразу. Выключить: «без криведко» / «нормальный режим».
+
+**License:** MIT (adapter) + MIT upstream `as.krivedko.kgam` @ `2722a45`.
