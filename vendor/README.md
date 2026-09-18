@@ -7,9 +7,8 @@ Git submodule. Orthography core for the Grok adapter — **pinned SHA**, not flo
 | Field | Value |
 |-------|-------|
 | Upstream | https://github.com/ast-ashulga/as.krivedko.kgam |
-| SHA | `2722a45780cb27f5af58f8989ed1993b016f412f` |
+| SHA | `ca133efbf7f12fe8a6250b9920ad3b12a99d620b` |
 
-<!-- TODO: bump pin when upstream PR lands (КГ/АМ polarity in slovar) — do not float main until then -->
 | Expected refs | `skills/krivedko/references/{orfoart,slovar,sceny}.md` |
 
 ## Init + pin checkout
@@ -17,7 +16,7 @@ Git submodule. Orthography core for the Grok adapter — **pinned SHA**, not flo
 ```bash
 git submodule update --init --recursive
 cd vendor/as.krivedko.kgam
-git checkout 2722a45780cb27f5af58f8989ed1993b016f412f
+git checkout ca133efbf7f12fe8a6250b9920ad3b12a99d620b
 cd ../..
 ```
 
@@ -32,7 +31,7 @@ ls vendor/as.krivedko.kgam/skills/krivedko/references/{orfoart,slovar,sceny}.md
 ```bash
 git submodule add https://github.com/ast-ashulga/as.krivedko.kgam.git vendor/as.krivedko.kgam
 cd vendor/as.krivedko.kgam
-git checkout 2722a45780cb27f5af58f8989ed1993b016f412f
+git checkout ca133efbf7f12fe8a6250b9920ad3b12a99d620b
 cd ../..
 git add .gitmodules vendor/as.krivedko.kgam
 ```

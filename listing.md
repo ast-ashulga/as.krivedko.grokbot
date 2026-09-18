@@ -8,4 +8,4 @@
 
 Позови `@Йа Криведко` или скажи «олбанский» — ответит сразу. Выключить: «без криведко» / «нормальный режим».
 
-**License:** MIT (adapter) + MIT upstream `as.krivedko.kgam` @ `2722a45`.
+**License:** MIT (adapter) + MIT upstream `as.krivedko.kgam` @ `ca133ef`.

@@ -8,7 +8,7 @@ Published: 2026-09-19 (QA post-share GREEN)
 ## Checklist (all green)
 
 - [x] `git submodule update --init --recursive` succeeds (or `vendor/README.md` pin is documented and refs resolve)
-- [x] Upstream pin is `2722a45780cb27f5af58f8989ed1993b016f412f`
+- [x] Upstream pin is `ca133efbf7f12fe8a6250b9920ad3b12a99d620b`
 - [x] `skill/SKILL.md` instructs Read of vendor refs only — no pasted `slovar` / `orfoart` / `sceny` bodies
 - [x] `profile.md` matches Marketplace `template.description` intent
 - [x] `listing.md` blurb is short and accurate
