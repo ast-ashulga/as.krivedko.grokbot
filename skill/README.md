@@ -14,6 +14,7 @@ Those paths exist only after the git submodule is initialized and checked out at
 git submodule update --init --recursive
 cd vendor/asrokrivedko.kgam
 git checkout 2722a45780cb27f5af58f8989ed1993b016f412f
+cd ../..
 ```
 
 If the submodule is unavailable, see `../vendor/README.md` for the pin and manual clone instructions. Do not copy dictionary bodies into this tree.
