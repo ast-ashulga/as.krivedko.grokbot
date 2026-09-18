@@ -13,7 +13,7 @@ Those paths exist only after the git submodule is initialized and checked out at
 ```bash
 git submodule update --init --recursive
 cd vendor/as.krivedko.kgam
-git checkout 2722a45780cb27f5af58f8989ed1993b016f412f
+git checkout ca133efbf7f12fe8a6250b9920ad3b12a99d620b
 cd ../..
 ```
 
