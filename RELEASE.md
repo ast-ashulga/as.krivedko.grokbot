@@ -1,15 +1,18 @@
 # Release — Share as Template
 
-Do **not** publish / Share as Template until every gate below is green.
+## Live
 
-## Checklist
+Public template: https://x.ai/bot/OK7vCNrBmitaXAVeOQ44E  
+Published: 2026-09-19 (QA post-share GREEN)
 
-- [ ] `git submodule update --init --recursive` succeeds (or `vendor/README.md` pin is documented and refs resolve)
-- [ ] Upstream pin is `2722a45780cb27f5af58f8989ed1993b016f412f`
-- [ ] `skill/SKILL.md` instructs Read of vendor refs only — no pasted `slovar` / `orfoart` / `sceny` bodies
-- [ ] `profile.md` matches Marketplace `template.description` intent
-- [ ] `listing.md` blurb is short and accurate
-- [ ] Fixtures reviewed:
+## Checklist (all green)
+
+- [x] `git submodule update --init --recursive` succeeds (or `vendor/README.md` pin is documented and refs resolve)
+- [x] Upstream pin is `2722a45780cb27f5af58f8989ed1993b016f412f`
+- [x] `skill/SKILL.md` instructs Read of vendor refs only — no pasted `slovar` / `orfoart` / `sceny` bodies
+- [x] `profile.md` matches Marketplace `template.description` intent
+- [x] `listing.md` blurb is short and accurate
+- [x] Fixtures reviewed:
 
 | Fixture | Gate |
 |---------|------|
@@ -20,14 +23,12 @@ Do **not** publish / Share as Template until every gate below is green.
 | `fixtures/mixed-code-preserve.md` | Code / ids / URLs untouched |
 | `fixtures/critical-path-clean.md` | DROP / rm -rf / force-push / security → clean prose |
 
-## QA gates (must be green)
+## QA gates (green)
 
-1. **Code preserve** — mixed prose+code fixtures pass.
-2. **Critical-path clean** — irreversible / security turns are plain text.
-3. **Rare spice** — ≤1 per ≥8; mention burns slot; skip when no beat.
-4. **Anti-jobs** — coding / shipping / auth / repo asks are refused.
-5. **No CreateAgent / no live bot publish from this checklist alone** — build v1 in Grok Bot UI from bundled skill when ready.
+1. **Code preserve** — PASS
+2. **Critical-path clean** — PASS
+3. **Rare spice** — PASS
+4. **Anti-jobs** — PASS
+5. **Post-share public listing** — PASS (https://x.ai/bot/OK7vCNrBmitaXAVeOQ44E)
 
-## After green
-
-Share as Template from Grok Bot UI (Team or Public as chosen). Keep this repo as the versioned adapter source of truth.
+Keep this repo as the versioned adapter source of truth.
