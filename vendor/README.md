@@ -8,6 +8,8 @@ Git submodule. Orthography core for the Grok adapter — **pinned SHA**, not flo
 |-------|-------|
 | Upstream | https://github.com/ast-ashulga/as.krivedko.kgam |
 | SHA | `2722a45780cb27f5af58f8989ed1993b016f412f` |
+
+<!-- TODO: bump pin when upstream PR lands (КГ/АМ polarity in slovar) — do not float main until then -->
 | Expected refs | `skills/krivedko/references/{orfoart,slovar,sceny}.md` |
 
 ## Init + pin checkout
