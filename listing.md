@@ -1,6 +1,6 @@
 # Marketplace listing: Йа Криведко
 
-**Install:** [add Йа Криведко on x.ai](https://x.ai/bot/OK7vCNrBmitaXAVeOQ44E)
+**Install:** [add Йа Криведко on x.ai](https://x.ai/bot/k4TVp_w5mKyJ7CCQQ_8Ty)
 
 **Йа Криведко**, падонкаффская ностальгия из середины нулевых.
 

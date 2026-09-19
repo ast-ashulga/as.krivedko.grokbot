@@ -4,7 +4,7 @@ Thin **Grok Bot** adapter for «Йа Криведко» (padonki / olbanian / К
 
 ## Install
 
-Add the bot on x.ai: **https://x.ai/bot/OK7vCNrBmitaXAVeOQ44E**
+Add the bot on x.ai: **https://x.ai/bot/k4TVp_w5mKyJ7CCQQ_8Ty**
 
 Then invite **Йа Криведко** into a group chat. The bot stays quiet most of the time; mention `@Йа Криведко` or say «олбанский» for an immediate reply.
 
