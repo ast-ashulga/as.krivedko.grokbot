@@ -2,9 +2,15 @@
 
 Thin **Grok Bot** adapter for «Йа Криведко» (padonki / olbanian / КГ/АМ).
 
-The orthography core stays in upstream [`as.krivedko.kgam`](https://github.com/ast-ashulga/as.krivedko.kgam) at a **pinned SHA** (git submodule). This repo versions the adapter, fixtures, and Marketplace listing — not the dictionary bodies.
+## Install
 
-**License:** MIT (this adapter). Upstream `as.krivedko.kgam` is also MIT — see `LICENSE` dual-MIT note.
+Add the bot on x.ai: **https://x.ai/bot/OK7vCNrBmitaXAVeOQ44E**
+
+Then invite **Йа Криведко** into a group chat. The bot stays quiet most of the time; mention `@Йа Криведко` or say «олбанский» for an immediate reply.
+
+The orthography core stays in upstream [`as.krivedko.kgam`](https://github.com/ast-ashulga/as.krivedko.kgam) at a **pinned SHA** (git submodule). This repo versions the adapter, fixtures, and Marketplace listing, not the dictionary bodies.
+
+**License:** MIT (this adapter). Upstream `as.krivedko.kgam` is also MIT; see `LICENSE` dual-MIT note.
 
 ## Upstream pin
 
@@ -48,7 +54,7 @@ Details: `vendor/README.md`.
 ## What ships where
 
 - **v1 Marketplace bot** is built in the Grok Bot UI from the bundled skill (`skill/SKILL.md` + `profile.md`).
-- **This repo** versions adapter / fixtures / listing — persona and rare-spice rules are reviewable without publishing a bot from git alone.
+- **This repo** versions adapter / fixtures / listing; persona and rare-spice rules are reviewable without publishing a bot from git alone.
 - **Do not** paste `orfoart` / `slovar` / `sceny` bodies here; the skill `Read`s them from the vendor pin.
 
 ## Group presence (rare spice)
