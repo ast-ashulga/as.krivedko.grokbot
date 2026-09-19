@@ -2,7 +2,7 @@
 
 ## Live
 
-Public template: https://x.ai/bot/OK7vCNrBmitaXAVeOQ44E  
+Public template: https://x.ai/bot/k4TVp_w5mKyJ7CCQQ_8Ty  
 Published: 2026-09-19 (QA post-share GREEN)
 
 ## Checklist (all green)
@@ -29,6 +29,6 @@ Published: 2026-09-19 (QA post-share GREEN)
 2. **Critical-path clean** — PASS
 3. **Rare spice** — PASS
 4. **Anti-jobs** — PASS
-5. **Post-share public listing** — PASS (https://x.ai/bot/OK7vCNrBmitaXAVeOQ44E)
+5. **Post-share public listing** — PASS (https://x.ai/bot/k4TVp_w5mKyJ7CCQQ_8Ty)
 
 Keep this repo as the versioned adapter source of truth.
